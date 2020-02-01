@@ -1,0 +1,41 @@
+.container{
+	height: 100%;
+	width: 100%;
+}
+.emilia-img{
+	padding-top: 100px;
+	width: 915px;
+	margin: auto;
+}
+.emilia-img img{
+	width: 300px;
+	height: 300px;
+}
+@media screen and (max-width: 915px){
+	.emilia-img{
+		width: 800px;
+		padding-top: 80px;
+	}
+	.emilia-img img{
+		margin-left: 50px;
+	}
+	.nav-bar ul li{
+		display: none;
+	}
+}
+@media screen and (max-width: 500px){
+	.emilia-img{
+		width: 500px;
+		padding-top: 80px;
+	}
+	.nav-bar ul li{
+		display: none;
+	}
+}
+.emilia-img img{
+	position: relative;
+	transition: 0.5s all ease;
+}
+.emilia-img img:hover{
+	transform: translateX(-5%);
+}
