@@ -247,9 +247,13 @@ a.next:hover{
 }
 @media screen and (max-width: 600px){
 	h1{
-		top: 300px;
+		top: 480px;
+		font-size: 0;
 	}
 	.para{
-		display: none;
+		top: 550px;
+	}
+	.btn learn-more, .btn, .inner-btn{
+		top: 600px;
 	}
 }
